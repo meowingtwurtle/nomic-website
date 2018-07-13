@@ -1,0 +1,17 @@
+.ProposalsList {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+.ProposalsNewProposalButton {
+    margin: 0 auto;
+    background-color: #1ab4e2;
+    color: white;
+    width: fit-content;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.6em;
+    padding: 0 0.5em;
+    cursor: pointer;
+}

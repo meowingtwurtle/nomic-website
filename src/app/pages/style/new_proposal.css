@@ -1,0 +1,42 @@
+.NewProposalContainer {
+    margin-top: 1em;
+}
+
+.NewProposalTypeLabel, .NewProposalTargetLabel {
+    display: inline;
+    width: fit-content;
+}
+
+.NewProposalInlineFieldContainer {
+    margin-bottom: 1em;
+}
+
+.NewProposalTargetSelect {
+    width: 4em;
+}
+
+.NewProposalSubmitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1em;
+    background-color: #1ab4e2;
+    border: none;
+    color: white;
+    padding: 0 0.5em;
+    cursor: pointer;
+}
+
+.NewProposalSubmitButton p {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.NewProposalTextEntry {
+    width: 60em;
+}
