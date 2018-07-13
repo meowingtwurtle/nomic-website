@@ -1,0 +1,71 @@
+.ProposalContainer {
+    box-shadow: 0.25em 0.25em gray;
+    width: 60em;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    background-color: beige;
+    padding: 0.125em 0;
+}
+
+.ProposalText {
+    width: 90%;
+    margin: 0 auto;
+    overflow-wrap: normal;
+
+    white-space: normal;
+    text-align: left;
+}
+
+.ProposalFieldList {
+    margin: 0 auto;
+    text-align: left;
+    width: fit-content;
+}
+
+.ProposalFieldContainer {
+    margin: 0.2em auto;
+}
+
+.ProposalVoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.ProposalVoteVoteText {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.ProposalVoteButton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0 1em;
+    margin: 0 2em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.ProposalVoteAyeButton {
+    background-color: lawngreen;
+    margin-right: 0;
+}
+
+.ProposalVoteNoButton {
+    background-color: red;
+}
+
+.ProposalVoteButton p {
+    width: fit-content;
+}
+
+.ProposalVoteCurrent {
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: cyan;
+}

@@ -1,0 +1,16 @@
+.RuleContainer {
+    box-shadow: 0.25em 0.25em gray;
+    width: 60em;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 0.125em 0;
+}
+
+.RuleText {
+    width: 90%;
+    margin: 0 auto;
+    overflow-wrap: normal;
+
+    white-space: normal;
+    text-align: left;
+}
